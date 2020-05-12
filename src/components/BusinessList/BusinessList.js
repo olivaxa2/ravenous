@@ -1,8 +1,8 @@
 import React from 'react';
 import './BusinessList.css';
-import Business from '../Business/Business.js';
+import Business from '../Business/Business';
 
-class BusinessList extends React {
+class BusinessList extends React.Component {
     render() {
         return (
             <div className="BusinessList">
@@ -13,7 +13,7 @@ class BusinessList extends React {
   <Business /> 
   <Business /> 
 </div>
-        )
+        );
     }
 }
 
